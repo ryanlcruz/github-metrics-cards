@@ -5,7 +5,7 @@ import shlex
 from pathlib import Path
 
 DEFAULTS = {
-    "username": "Ryanleoncoder", "theme": "neobrutalist", "custom_palette": {},
+    "username": "ryanlcruz", "theme": "neobrutalist", "custom_palette": {},
     "include_private": False,
     "cards": {"languages_commits": True, "top_repos": True, "year_in_code": True},
     "top_repos": {"count": 6, "days": 30, "show_language": True, "show_topics": True, "exclude": []},

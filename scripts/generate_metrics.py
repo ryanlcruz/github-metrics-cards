@@ -23,7 +23,7 @@ from scripts.github_data import GitHub, MetricsError, collect
 CONFIG_PATH = os.path.join(REPO_ROOT, "config.yml")
 config = parse_yaml(CONFIG_PATH)
 
-USERNAME = os.getenv("METRICS_USERNAME") or config.get("username", "Ryanleoncoder")
+USERNAME = os.getenv("METRICS_USERNAME") or config.get("username", "ryanlcruz")
 THEME_NAME = config.get("theme", "neobrutalist")
 THEME = get_theme(THEME_NAME, config.get("custom_palette"))
 TOKEN = os.getenv("METRICS_TOKEN") or os.getenv("GITHUB_TOKEN", "")
