@@ -105,6 +105,12 @@ class CollectionTests(unittest.TestCase):
         self.cfg["languages"]["metric"] = "code_size"
         self.assertEqual(collect(self.cfg, FakeGitHub(), NOW)["languages"], {"Python": 300})
 
+    def test_excluded_language_leaves_the_share_to_the_others(self):
+        self.cfg["languages"]["metric"] = "code_size"
+        self.cfg["languages"]["exclude"] = ["css"]
+        fake = FakeGitHub([repository("novo"), repository("estilo", language="CSS", size=900)])
+        self.assertEqual(collect(self.cfg, fake, NOW)["languages"], {"Python": 100})
+
     def test_pages_are_collected_and_cursor_is_passed(self):
         fake = FakeGitHub(pages=[
             {"nodes": [repository("novo")], "pageInfo": {"hasNextPage": True, "endCursor": "next"}},

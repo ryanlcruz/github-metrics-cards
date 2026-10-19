@@ -9,7 +9,7 @@ DEFAULTS = {
     "include_private": False,
     "cards": {"languages_commits": True, "top_repos": True, "year_in_code": True},
     "top_repos": {"count": 6, "days": 30, "show_language": True, "show_topics": True, "exclude": []},
-    "languages": {"max_languages": 5, "metric": "recent_commits",
+    "languages": {"max_languages": 5, "metric": "recent_commits", "exclude": [],
                   "label": "LANGUAGES I COMMIT IN", "sublabel": ""},
     "year_in_code": {"days": 120, "label": "MY CODE, LATELY", "sublabel": "GITHUB CONTRIBUTION ACTIVITY"},
 }
@@ -111,9 +111,10 @@ def validate(config):
     for name in ("show_language", "show_topics"):
         if not isinstance(config["top_repos"][name], bool):
             raise ValueError(f"top_repos.{name} precisa ser true ou false")
-    excluded = config["top_repos"]["exclude"]
-    if not isinstance(excluded, list) or any(not isinstance(name, str) or not name for name in excluded):
-        raise ValueError("top_repos.exclude precisa ser uma lista de nomes")
+    for section in ("top_repos", "languages"):
+        excluded = config[section]["exclude"]
+        if not isinstance(excluded, list) or any(not isinstance(name, str) or not name for name in excluded):
+            raise ValueError(f"{section}.exclude precisa ser uma lista de nomes")
     if config["languages"]["metric"] not in ("recent_commits", "code_size"):
         raise ValueError("languages.metric precisa ser recent_commits ou code_size")
     for section in ("languages", "year_in_code"):

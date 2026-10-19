@@ -34,6 +34,7 @@ top_repos:
 languages:
   max_languages: 5
   metric: code_size
+  exclude: [CSS, HTML]
   label: 'LANGUAGES I CODE IN'
   sublabel: 'CODE SIZE / PUBLIC REPOSITORIES'
 

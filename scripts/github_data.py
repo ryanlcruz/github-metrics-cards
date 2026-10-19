@@ -151,8 +151,10 @@ def collect(config, github, now=None):
     days = [daily.get((start + timedelta(days=index)).isoformat()) for index in range((end - start).days + 1)]
     if any(day is None for day in days):
         raise MetricsError("O calendário recebido está incompleto; não será preenchido com números inventados.")
+    hidden = {name.casefold() for name in config["languages"]["exclude"]}
+    languages = weights if config["languages"]["metric"] == "recent_commits" else sizes
     return {"username": config["username"], "generated_at": now.isoformat().replace("+00:00", "Z"),
             "start": start.isoformat(), "end": end.isoformat(), "recent_start": recent_start.isoformat(),
             "include_private": config["include_private"], "repos": repos,
-            "languages": dict(weights if config["languages"]["metric"] == "recent_commits" else sizes),
+            "languages": {name: value for name, value in languages.items() if name.casefold() not in hidden},
             "days": days, "source": "GitHub GraphQL API"}
