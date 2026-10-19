@@ -9,32 +9,32 @@
   <circle cx="52" cy="121" r="6" fill="#3776AB" stroke="#0A0A0A" stroke-width="1.5"/>
   <text x="70" y="126" fill="#0A0A0A" font-family="Arial, sans-serif" font-size="15" font-weight="800">PYTHON</text>
   <rect x="195" y="109" width="290" height="16" rx="4" fill="#EAE4D4" stroke="#0A0A0A" stroke-width="1.5"/>
-  <rect x="195" y="109" width="93" height="16" rx="4" fill="#FFC700" stroke="#0A0A0A" stroke-width="1.5"/>
-  <text x="498" y="122" fill="#0A0A0A" font-family="monospace" font-size="12" font-weight="700">32%</text>
+  <rect x="195" y="109" width="133" height="16" rx="4" fill="#FFC700" stroke="#0A0A0A" stroke-width="1.5"/>
+  <text x="498" y="122" fill="#0A0A0A" font-family="monospace" font-size="12" font-weight="700">46%</text>
   <circle cx="52" cy="189.33333333333331" r="6" fill="#F7DF1E" stroke="#0A0A0A" stroke-width="1.5"/>
   <text x="70" y="194.33333333333331" fill="#0A0A0A" font-family="Arial, sans-serif" font-size="15" font-weight="800">JAVASCRIPT</text>
   <rect x="195" y="177.33333333333331" width="290" height="16" rx="4" fill="#EAE4D4" stroke="#0A0A0A" stroke-width="1.5"/>
-  <rect x="195" y="177.33333333333331" width="72" height="16" rx="4" fill="#FFC700" stroke="#0A0A0A" stroke-width="1.5"/>
-  <text x="498" y="190.33333333333331" fill="#0A0A0A" font-family="monospace" font-size="12" font-weight="700">25%</text>
-  <circle cx="52" cy="257.66666666666663" r="6" fill="#1572B6" stroke="#0A0A0A" stroke-width="1.5"/>
-  <text x="70" y="262.66666666666663" fill="#0A0A0A" font-family="Arial, sans-serif" font-size="15" font-weight="800">CSS</text>
+  <rect x="195" y="177.33333333333331" width="102" height="16" rx="4" fill="#FFC700" stroke="#0A0A0A" stroke-width="1.5"/>
+  <text x="498" y="190.33333333333331" fill="#0A0A0A" font-family="monospace" font-size="12" font-weight="700">35%</text>
+  <circle cx="52" cy="257.66666666666663" r="6" fill="#336791" stroke="#0A0A0A" stroke-width="1.5"/>
+  <text x="70" y="262.66666666666663" fill="#0A0A0A" font-family="Arial, sans-serif" font-size="15" font-weight="800">PLPGSQL</text>
   <rect x="195" y="245.66666666666663" width="290" height="16" rx="4" fill="#EAE4D4" stroke="#0A0A0A" stroke-width="1.5"/>
-  <rect x="195" y="245.66666666666663" width="55" height="16" rx="4" fill="#FFC700" stroke="#0A0A0A" stroke-width="1.5"/>
-  <text x="498" y="258.66666666666663" fill="#0A0A0A" font-family="monospace" font-size="12" font-weight="700">19%</text>
-  <circle cx="52" cy="325.99999999999994" r="6" fill="#E34F26" stroke="#0A0A0A" stroke-width="1.5"/>
-  <text x="70" y="330.99999999999994" fill="#0A0A0A" font-family="Arial, sans-serif" font-size="15" font-weight="800">HTML</text>
+  <rect x="195" y="245.66666666666663" width="23" height="16" rx="4" fill="#FFC700" stroke="#0A0A0A" stroke-width="1.5"/>
+  <text x="498" y="258.66666666666663" fill="#0A0A0A" font-family="monospace" font-size="12" font-weight="700">8%</text>
+  <circle cx="52" cy="325.99999999999994" r="6" fill="#3178C6" stroke="#0A0A0A" stroke-width="1.5"/>
+  <text x="70" y="330.99999999999994" fill="#0A0A0A" font-family="Arial, sans-serif" font-size="15" font-weight="800">TYPESCRIPT</text>
   <rect x="195" y="313.99999999999994" width="290" height="16" rx="4" fill="#EAE4D4" stroke="#0A0A0A" stroke-width="1.5"/>
-  <rect x="195" y="313.99999999999994" width="29" height="16" rx="4" fill="#FFC700" stroke="#0A0A0A" stroke-width="1.5"/>
-  <text x="498" y="326.99999999999994" fill="#0A0A0A" font-family="monospace" font-size="12" font-weight="700">10%</text>
-  <circle cx="52" cy="394.33333333333326" r="6" fill="#336791" stroke="#0A0A0A" stroke-width="1.5"/>
-  <text x="70" y="399.33333333333326" fill="#0A0A0A" font-family="Arial, sans-serif" font-size="15" font-weight="800">PLPGSQL</text>
+  <rect x="195" y="313.99999999999994" width="17" height="16" rx="4" fill="#FFC700" stroke="#0A0A0A" stroke-width="1.5"/>
+  <text x="498" y="326.99999999999994" fill="#0A0A0A" font-family="monospace" font-size="12" font-weight="700">6%</text>
+  <circle cx="52" cy="394.33333333333326" r="6" fill="#00ADD8" stroke="#0A0A0A" stroke-width="1.5"/>
+  <text x="70" y="399.33333333333326" fill="#0A0A0A" font-family="Arial, sans-serif" font-size="15" font-weight="800">GO</text>
   <rect x="195" y="382.33333333333326" width="290" height="16" rx="4" fill="#EAE4D4" stroke="#0A0A0A" stroke-width="1.5"/>
-  <rect x="195" y="382.33333333333326" width="17" height="16" rx="4" fill="#FFC700" stroke="#0A0A0A" stroke-width="1.5"/>
-  <text x="498" y="395.33333333333326" fill="#0A0A0A" font-family="monospace" font-size="12" font-weight="700">6%</text>
+  <rect x="195" y="382.33333333333326" width="6" height="16" rx="4" fill="#FFC700" stroke="#0A0A0A" stroke-width="1.5"/>
+  <text x="498" y="395.33333333333326" fill="#0A0A0A" font-family="monospace" font-size="12" font-weight="700">2%</text>
   <circle cx="52" cy="462.6666666666666" r="6" fill="#8B8B8B" stroke="#0A0A0A" stroke-width="1.5"/>
   <text x="70" y="467.6666666666666" fill="#0A0A0A" font-family="Arial, sans-serif" font-size="15" font-weight="800">OTHER</text>
   <rect x="195" y="450.6666666666666" width="290" height="16" rx="4" fill="#EAE4D4" stroke="#0A0A0A" stroke-width="1.5"/>
-  <rect x="195" y="450.6666666666666" width="23" height="16" rx="4" fill="#FFC700" stroke="#0A0A0A" stroke-width="1.5"/>
-  <text x="498" y="463.6666666666666" fill="#0A0A0A" font-family="monospace" font-size="12" font-weight="700">8%</text>
+  <rect x="195" y="450.6666666666666" width="9" height="16" rx="4" fill="#FFC700" stroke="#0A0A0A" stroke-width="1.5"/>
+  <text x="498" y="463.6666666666666" fill="#0A0A0A" font-family="monospace" font-size="12" font-weight="700">3%</text>
 <text x="536" y="510" text-anchor="end" fill="#7A7570" font-family="monospace" font-size="10"></text>
 </svg>
