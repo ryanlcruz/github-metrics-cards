@@ -33,9 +33,9 @@ top_repos:
 
 languages:
   max_languages: 5
-  metric: recent_commits
-  label: 'LANGUAGES I COMMIT IN'
-  sublabel: 'LAST 30 DAYS / PRIMARY LANGUAGE'
+  metric: code_size
+  label: 'LANGUAGES I CODE IN'
+  sublabel: 'CODE SIZE / PUBLIC REPOSITORIES'
 
 year_in_code:
   days: 120
