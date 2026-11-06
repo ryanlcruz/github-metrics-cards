@@ -1,15 +1,15 @@
 {
   "username": "ryanlcruz",
-  "generated_at": "2026-11-05T13:58:27.113192Z",
-  "start": "2026-07-09",
-  "end": "2026-11-05",
-  "recent_start": "2026-10-07",
+  "generated_at": "2026-11-06T13:43:35.319855Z",
+  "start": "2026-07-10",
+  "end": "2026-11-06",
+  "recent_start": "2026-10-08",
   "include_private": false,
   "repos": [
     {
       "name": "RobinBandit",
       "url": "https://github.com/ryanlcruz/RobinBandit",
-      "commits": 14,
+      "commits": 13,
       "topics": [
         "adaptive-routing",
         "ai-infrastructure",
@@ -22,7 +22,7 @@
     {
       "name": "github-metrics-cards",
       "url": "https://github.com/ryanlcruz/github-metrics-cards",
-      "commits": 7,
+      "commits": 4,
       "topics": [],
       "languages": [
         "Python"
@@ -39,15 +39,6 @@
       ],
       "languages": [
         "Python"
-      ]
-    },
-    {
-      "name": "Experience-Connect",
-      "url": "https://github.com/ryanlcruz/Experience-Connect",
-      "commits": 1,
-      "topics": [],
-      "languages": [
-        "JavaScript"
       ]
     },
     {
@@ -78,13 +69,12 @@
     }
   ],
   "languages": {
-    "Python": 7319315,
-    "JavaScript": 1984485,
-    "PLpgSQL": 394657,
-    "Shell": 119520,
-    "Procfile": 54,
+    "Python": 6721389,
+    "JavaScript": 1062358,
+    "Shell": 106892,
     "Go Template": 2521,
     "TypeScript": 1637160,
+    "PLpgSQL": 172802,
     "PowerShell": 6927,
     "Batchfile": 922,
     "Dockerfile": 1772,
@@ -92,11 +82,6 @@
     "Go": 127465
   },
   "days": [
-    {
-      "date": "2026-07-09",
-      "contributionCount": 0,
-      "contributionLevel": "NONE"
-    },
     {
       "date": "2026-07-10",
       "contributionCount": 0,
@@ -689,6 +674,11 @@
     },
     {
       "date": "2026-11-05",
+      "contributionCount": 39,
+      "contributionLevel": "FOURTH_QUARTILE"
+    },
+    {
+      "date": "2026-11-06",
       "contributionCount": 0,
       "contributionLevel": "NONE"
     }
