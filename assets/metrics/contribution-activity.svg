@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img">
   <title>MY CODE, LATELY</title>
-<desc>825 GitHub contributions, 2026-07-20 to 2026-11-16. </desc>
+<desc>819 GitHub contributions, 2026-07-21 to 2026-11-17. </desc>
   <rect x="17" y="17" width="1160" height="350" rx="16" fill="#0A0A0A"/>
   <rect x="9" y="9" width="1160" height="350" rx="16" fill="#F5F0E6" stroke="#0A0A0A" stroke-width="3"/>
   <text x="48" y="67" fill="#0A0A0A" font-family="Arial, sans-serif" font-size="34" font-weight="800" letter-spacing="1">MY CODE, LATELY</text>
   <text x="49" y="93" fill="#7A7570" font-family="monospace" font-size="12" font-weight="700" letter-spacing="1.8">GITHUB CONTRIBUTION ACTIVITY · 120 DAYS</text>
   <rect x="930" y="42" width="194" height="38" rx="6" fill="#FFC700" stroke="#0A0A0A" stroke-width="2"/>
-  <text x="1027" y="66" text-anchor="middle" fill="#0A0A0A" font-family="monospace" font-size="12" font-weight="700">825 CONTRIBUTIONS</text>
+  <text x="1027" y="66" text-anchor="middle" fill="#0A0A0A" font-family="monospace" font-size="12" font-weight="700">819 CONTRIBUTIONS</text>
   <g>
     <polygon points="160.3,165.2 270.3,167.2 181.0,263.3 71.0,261.3" fill="#EAE4D4" stroke="#7A7570" stroke-width="1.5" opacity="0.8"/>
     <polygon points="272.3,169.2 526.3,177.2 437.0,273.3 183.0,265.3" fill="#EAE4D4" stroke="#7A7570" stroke-width="1.5" opacity="0.8"/>
@@ -15,11 +15,6 @@
     <polygon points="944.3,195.2 1102.3,199.2 1013.0,295.3 855.0,291.3" fill="#EAE4D4" stroke="#7A7570" stroke-width="1.5" opacity="0.8"/>
   </g>
   <g>
-<g data-date="2026-07-20" data-count="6"><title>2026-07-20: 6 contributions</title>
-    <polygon points="176.4,196.4 200.4,185.6 200.4,193.1 176.4,203.9" fill="#FFF3B5" stroke="#0A0A0A" stroke-width="0.7"/>
-    <polygon points="152.4,185.6 176.4,196.4 176.4,203.9 152.4,193.1" fill="#FFF3B5" stroke="#0A0A0A" stroke-width="0.7"/>
-    <polygon points="176.4,174.8 200.4,185.6 176.4,196.4 152.4,185.6" fill="#FFF3B5" stroke="#0A0A0A" stroke-width="0.7"/>
-</g>
 <g data-date="2026-07-26" data-count="2"><title>2026-07-26: 2 contributions</title>
     <polygon points="239.3,188.3 263.3,177.5 263.3,185.0 239.3,195.8" fill="#FFF3B5" stroke="#0A0A0A" stroke-width="0.7"/>
     <polygon points="215.3,177.5 239.3,188.3 239.3,195.8 215.3,185.0" fill="#FFF3B5" stroke="#0A0A0A" stroke-width="0.7"/>
@@ -464,6 +459,9 @@
 </g>
 <g data-date="2026-11-11" data-count="0"><title>2026-11-11: 0 contributions</title>
     <polygon points="978.6,234.4 1002.6,245.2 978.6,256.0 954.6,245.2" fill="#EAE4D4" stroke="#0A0A0A" stroke-width="0.7"/>
+</g>
+<g data-date="2026-11-17" data-count="0"><title>2026-11-17: 0 contributions</title>
+    <polygon points="1041.5,226.4 1065.5,237.2 1041.5,248.0 1017.5,237.2" fill="#EAE4D4" stroke="#0A0A0A" stroke-width="0.7"/>
 </g>
 <g data-date="2026-10-31" data-count="33"><title>2026-10-31: 33 contributions</title>
     <polygon points="822.0,259.8 846.0,249.0 846.0,271.5 822.0,282.3" fill="#FFC700" stroke="#0A0A0A" stroke-width="0.7"/>
